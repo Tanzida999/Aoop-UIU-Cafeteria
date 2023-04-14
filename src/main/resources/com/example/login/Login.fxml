@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="597.0" style="-fx-background-color: #EE7600;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController">
+   <children>
+      <Label layoutX="230.0" layoutY="129.0" text="Login Account">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="190.0" layoutY="194.0" prefHeight="25.0" prefWidth="220.0" promptText="username" />
+      <Button layoutX="189.0" layoutY="271.0" mnemonicParsing="false" onAction="#switchToShop" prefHeight="40.0" prefWidth="220.0" text="login" />
+      <Text layoutX="190.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forget Password?" />
+      <Button layoutX="189.0" layoutY="369.0" mnemonicParsing="false" onAction="#switchToSignup" prefHeight="40.0" prefWidth="220.0" text="Create New Account" />
+      <PasswordField layoutX="190.0" layoutY="233.0" prefHeight="25.0" prefWidth="220.0" promptText="password" />
+      <Text layoutX="184.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UIU Cafeteria" wrappingWidth="220.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="83.0" fitWidth="80.0" layoutX="32.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Pictures/UIU-Logo-250.png" />
+         </image></ImageView>
+      <Hyperlink layoutX="283.0" layoutY="315.0" onAction="#switchToFP" prefHeight="17.0" prefWidth="121.0" text="Create new password" textFill="#030303" />
+      <ImageView fitHeight="123.0" fitWidth="165.0" layoutX="12.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
