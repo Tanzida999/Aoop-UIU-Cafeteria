@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="479.0" prefWidth="597.0" style="-fx-background-color: #EE7600;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController">
+   <children>
+      <Button blendMode="MULTIPLY" mnemonicParsing="false" onAction="#switchOlympia" prefHeight="46.0" prefWidth="64.0" style="-fx-background-color: blur;" text="&lt;-">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="11.0" layoutY="57.0" prefHeight="92.0" prefWidth="582.0" style="-fx-background-color: white;" />
+      <Text layoutX="18.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Naga BBQ Chicken Wings" wrappingWidth="175.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 piece" wrappingWidth="51.13671875" />
+      <Text layoutX="18.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price : 30" wrappingWidth="64.13671875" />
+      <Text layoutX="247.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity : " wrappingWidth="64.13671875" />
+      <Spinner layoutX="303.0" layoutY="78.0" prefHeight="25.0" prefWidth="51.0" />
+      <Button layoutX="247.0" layoutY="110.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" text="Add to cart" />
+      <Label layoutX="12.0" layoutY="157.0" prefHeight="92.0" prefWidth="582.0" style="-fx-background-color: white;" />
+      <Button layoutX="251.0" layoutY="203.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" text="Add to cart" />
+      <Text layoutX="18.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crunchy wings" wrappingWidth="175.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 piece" wrappingWidth="64.13671875" />
+      <Text layoutX="18.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price : 30" wrappingWidth="64.13671875" />
+      <Text layoutX="251.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity : " wrappingWidth="64.13671875" />
+      <Spinner layoutX="309.0" layoutY="166.0" prefHeight="25.0" prefWidth="51.0" />
+      <Label layoutX="12.0" layoutY="255.0" prefHeight="92.0" prefWidth="582.0" style="-fx-background-color: white;" />
+      <Spinner layoutX="309.0" layoutY="258.0" prefHeight="25.0" prefWidth="51.0" />
+      <Text layoutX="18.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chicken Wonton" wrappingWidth="175.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 piece" wrappingWidth="75.0" />
+      <Text layoutX="18.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price : 80" wrappingWidth="75.0" />
+      <Text layoutX="251.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity : " wrappingWidth="64.13671875" />
+      <Button layoutX="254.0" layoutY="289.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" text="Add to cart" />
+      <Label layoutX="11.0" layoutY="354.0" prefHeight="92.0" prefWidth="582.0" style="-fx-background-color: white;" />
+      <Button layoutX="251.0" layoutY="400.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="110.0" text="Add to cart" />
+      <Text layoutX="18.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chicken Nachos" wrappingWidth="175.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="396.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 : 1" wrappingWidth="64.13671875" />
+      <Text layoutX="18.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price : 100" wrappingWidth="64.13671875" />
+      <Text layoutX="251.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity : " wrappingWidth="64.13671875" />
+      <Spinner layoutX="309.0" layoutY="370.0" prefHeight="25.0" prefWidth="51.0" />
+   </children>
+</AnchorPane>

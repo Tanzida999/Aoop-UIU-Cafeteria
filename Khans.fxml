@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="479.0" prefWidth="597.0" style="-fx-background-color: #EE7600;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController">
+   <children>
+      <Text layoutX="23.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" wrappingWidth="64.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trending">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Hyperlink layoutX="169.0" layoutY="309.0" onAction="#switchToKPizza" prefHeight="24.0" prefWidth="114.0" text="PIZZA" textFill="#030303" />
+      <Button blendMode="MULTIPLY" mnemonicParsing="false" onAction="#switchToShop" prefHeight="46.0" prefWidth="56.0" style="-fx-background-color: blur;" text="&lt;-">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <Text layoutX="188.0" layoutY="59.0" strokeWidth="0.0" text="Khans Kitchen">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <Label layoutX="1.0" layoutY="299.0" prefHeight="161.0" prefWidth="576.0" style="-fx-background-color: white;" />
+      <Hyperlink layoutX="22.0" layoutY="321.0" onAction="#switchToKBurger" prefHeight="24.0" prefWidth="114.0" text="BURGER" textFill="#030303" />
+      <Hyperlink layoutX="169.0" layoutY="321.0" onAction="#switchToKPizza" prefHeight="24.0" prefWidth="114.0" text="PIZZA" textFill="#030303" />
+      <Hyperlink layoutX="316.0" layoutY="321.0" onAction="#switchToKNoodles" prefHeight="24.0" prefWidth="114.0" text="NOODLES" textFill="#070707" />
+      <Hyperlink layoutX="469.0" layoutY="321.0" onAction="#switchToKS" prefHeight="24.0" prefWidth="114.0" text="SANDWITCH" textFill="#070707" />
+      <Hyperlink layoutX="21.0" layoutY="367.0" onAction="#switchToKC" prefHeight="24.0" prefWidth="114.0" text="CHICKEN THINGS" textFill="#070707" />
+      <Hyperlink layoutX="169.0" layoutY="367.0" onAction="#switchToKSH" prefHeight="24.0" prefWidth="114.0" text="SHAWARMA" textFill="#070707" />
+      <Hyperlink layoutX="323.0" layoutY="368.0" onAction="#switchToKSP" prefHeight="24.0" prefWidth="114.0" text="SOUP" textFill="#070707" />
+      <Hyperlink layoutX="475.0" layoutY="368.0" onAction="#switchToKPL" prefHeight="24.0" prefWidth="114.0" text="PLATTER" textFill="#070707" />
+      <Hyperlink layoutX="22.0" layoutY="419.0" onAction="#switchToKRB" prefHeight="24.0" prefWidth="114.0" text="RICE BOWL" textFill="#070606" />
+      <Hyperlink layoutX="179.0" layoutY="413.0" onAction="#switchToKTH" prefHeight="24.0" prefWidth="114.0" text="TEHARI" textFill="#070606" />
+      <Hyperlink layoutX="323.0" layoutY="407.0" onAction="#switchToKD" prefHeight="24.0" prefWidth="114.0" text="DRINKS" textFill="#030303" />
+      <Hyperlink layoutX="475.0" layoutY="407.0" onAction="#switchToKAP" prefHeight="24.0" prefWidth="114.0" text="APPETIZER" textFill="#030303" />
+      <ImageView fx:id="myImageView" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="94.0" onDragDropped="#switchToKPizza" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/com/example/login/images/food-photographer-Fn6dPYtPUMc-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="136.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/com/example/login/images/istockphoto-1430049794-612x612.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="479.0" prefWidth="597.0" style="-fx-background-color: #EE7600;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController">
+   <children>
+      <Button blendMode="MULTIPLY" mnemonicParsing="false" onAction="#switchOSDetails" prefHeight="46.0" prefWidth="58.0" style="-fx-background-color: blur;" text="&lt;-">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Text layoutX="143.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Olympias Staff Details" wrappingWidth="294.13671875">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button layoutX="74.0" layoutY="225.0" mnemonicParsing="false" onAction="#switchOS1Details" prefHeight="25.0" prefWidth="109.0" text="Staff 1" />
+      <Button layoutX="254.0" layoutY="225.0" mnemonicParsing="false" onAction="#switchOS2Details" prefHeight="25.0" prefWidth="109.0" text="Staff 2" />
+      <Button layoutX="425.0" layoutY="225.0" mnemonicParsing="false" onAction="#switchOS3Details" prefHeight="25.0" prefWidth="109.0" text="Staff 3" />
+   </children>
+</AnchorPane>

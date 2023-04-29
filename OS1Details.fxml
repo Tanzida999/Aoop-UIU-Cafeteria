@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="479.0" prefWidth="597.0" style="-fx-background-color: #EE7600;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController">
+   <children>
+      <Button blendMode="MULTIPLY" mnemonicParsing="false" onAction="#switchOStaffDetails" prefHeight="46.0" prefWidth="55.0" style="-fx-background-color: blur;" text="&lt;-">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Text layoutX="208.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Details of Staff 1" wrappingWidth="154.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="219.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Olympia" wrappingWidth="114.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :" wrappingWidth="55.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="111.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="abcs" wrappingWidth="238.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID :" wrappingWidth="55.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="111.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01**********" wrappingWidth="216.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selling Iteams :" wrappingWidth="105.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="43.0" layoutY="318.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="BURGER" />
+      <Button layoutX="248.0" layoutY="318.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="PIZZA" />
+      <Button layoutX="453.0" layoutY="318.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Rice Bowl" />
+   </children>
+</AnchorPane>

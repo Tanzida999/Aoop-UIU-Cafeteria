@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="479.0" prefWidth="597.0" style="-fx-background-color: #EE7600;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.HelloController">
+   <children>
+      <Button blendMode="MULTIPLY" layoutY="-9.0" mnemonicParsing="false" onAction="#switchToKhans" prefHeight="46.0" prefWidth="62.0" style="-fx-background-color: blur;" text="&lt;-">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <Label layoutX="8.0" layoutY="27.0" prefHeight="107.0" prefWidth="581.0" style="-fx-background-color: white;" />
+      <Text layoutX="14.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beef Tehari" wrappingWidth="179.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aromatic rice that packs a pleasant punch contributed by green chili &amp; curried beef" wrappingWidth="247.13671875" />
+      <Text layoutX="14.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price : 120" wrappingWidth="62.13671875" />
+      <Text layoutX="305.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity : " wrappingWidth="62.13671875" />
+      <Spinner layoutX="361.0" layoutY="47.0" prefHeight="25.0" prefWidth="53.0" />
+      <Button layoutX="305.0" layoutY="79.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Add to cart" />
+      <Label layoutX="8.0" layoutY="142.0" prefHeight="135.0" prefWidth="581.0" style="-fx-background-color: white;" />
+      <Text layoutX="14.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beef Kacchi" wrappingWidth="179.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A delightful preparation of slow cooked aromatic rice layered with marinated beef pcs in a delicate blend of whole spices &amp; served with a boiled egg" wrappingWidth="247.13671875" />
+      <Text layoutX="14.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price : 150" wrappingWidth="62.13671875" />
+      <Text layoutX="311.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity : " wrappingWidth="62.13671875" />
+      <Spinner layoutX="367.0" layoutY="166.0" prefHeight="25.0" prefWidth="53.0" />
+      <Button layoutX="311.0" layoutY="197.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Add to cart" />
+      <Label layoutX="8.0" layoutY="286.0" prefHeight="135.0" prefWidth="581.0" style="-fx-background-color: white;" />
+      <Text layoutX="14.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Morog Polao" wrappingWidth="179.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aromatic rice prepared with spices,herbs &amp; marinated chicken with a boiled egg bringing out a delicision taste.served with an egg" wrappingWidth="247.13671875" />
+      <Text layoutX="14.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price : 180" wrappingWidth="62.13671875" />
+      <Text layoutX="311.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity : " wrappingWidth="62.13671875" />
+      <Spinner layoutX="367.0" layoutY="310.0" prefHeight="25.0" prefWidth="53.0" />
+      <Button layoutX="311.0" layoutY="341.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Add to cart" />
+   </children>
+</AnchorPane>
